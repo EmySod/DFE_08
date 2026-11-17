@@ -39,7 +39,8 @@
       "representations": [
         {
           "file": "ConveyorNew.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 0, 0],
@@ -95,7 +96,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, -900],
@@ -113,7 +115,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, -700],
@@ -131,7 +134,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, -500],
@@ -149,7 +153,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, -300],
@@ -167,7 +172,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, -100],
@@ -185,7 +191,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, 100],
@@ -203,7 +210,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, 300],
@@ -221,7 +229,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, 500],
@@ -239,7 +248,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, 700],
@@ -257,7 +267,8 @@
       "representations": [
         {
           "file": "Part.glb",
-          "unit": 1
+          "unit": 0,
+          1
         }
       ],
       "position": [0, 230, 900],
