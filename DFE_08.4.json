@@ -24,7 +24,6 @@
     "PP.Gripper",
     "PP.Finger1",
     "PP.Finger2",
-    "PP_2",
     "Grid",
     "Box"
   ],
@@ -471,113 +470,6 @@
          "friction":  0.0,
          "MotionType":  "ANIMATED",
          "isTrigger":  true
-      }
-    },
-    {
-      "id":  "PP_2",
-      "type": "https://w3id.org/ontoeng/factory#Robot",
-      "representations": [
-        {
-          "file": "Pick_and_Place_Robot.glb",
-          "unit": 1
-        }
-      ],
-      "position": [-870, 0, 0],
-      "rotation": [0, 0, 0],
-      "placementRelTo": "building",
-      "statechart": {
-                         "id":  "PP_SC",
-                         "initial":  "rest",
-                         "states":  {
-                             "rest":  {
-                                 "on":  {
-               "goPick":  "pick" 
-            },
-                                 "entry":  [
-                                       {
-                 "action":  "moveTo",
-                 "target":  "PP.FloatingZ",
-                 "position":  [-120, 80, 0] 
-              },
-                                       {
-                 "action":  "moveTo",
-                 "target":  "PP.FloatingY",
-                 "position":  [-6, -40, -171]
-              },
-                     {
-                 "action":  "moveTo",
-                 "target":  "PP.Finger1",
-                 "position":  [0, -38, 38],
-                "delay": 1000
-              },
-                                       {
-                 "action":  "moveTo",
-                 "target":  "PP.Finger2",
-                 "position":  [0, -38, -38],
-                "delay": 1000
-              }                         
-            ]                   
-          },
-                             "pick":  {
-                                 "on":  {
-               "goPlace":  "place" ,
-               "goRest":  "rest" 
-            },
-                                 "entry":  [
-                     {
-                 "action":  "moveTo",
-                 "target":  "PP.FloatingZ",
-                 "position":  [-120, 80, 0] 
-              },
-                     {
-                 "action":  "moveTo",
-                 "target":  "PP.FloatingY",
-                 "position":  [-6, -175, -171]
-              },
-                     {
-                 "action":  "moveTo",
-                 "target":  "PP.Finger1",
-                 "position":  [0, -38, 3],
-                "delay": 1500
-              },
-                                       {
-                 "action":  "moveTo",
-                 "target":  "PP.Finger2",
-                 "position":  [0, -38, -3],
-                "delay": 1500
-              }       
-            ]                   
-          },
-                             "place":  {
-                                 "on":  {
-               "goRest":  "rest" 
-            },
-                                 "entry":  [
-                                       {
-                 "action":  "moveTo",
-                 "target":  "PP.FloatingZ",
-                 "position":  [-120, 80, -200] 
-              },
-                        {
-                 "action":  "moveTo",
-                 "target":  "PP.FloatingY",
-                 "position":  [-6, -40, -171]
-              },
-                     {
-                 "action":  "moveTo",
-                 "target":  "PP.Finger1",
-                 "position":  [0, -38, 38],
-                "delay": 1500
-              },
-                                       {
-                 "action":  "moveTo",
-                 "target":  "PP.Finger2",
-                 "position":  [0, -38, -38],
-                "delay": 1500
-              }                     
-            ]                   
-          }                 
-        }               
       }
     },
     {
